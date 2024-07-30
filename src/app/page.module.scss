@@ -1,11 +1,11 @@
 .nav {
     position: relative;
-    // .component {
-    //     position: absolute;
-    //     width: 100%;
-    //     top: 0;
-    //     // z-index: 3;
-    // }
+    .component {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 3;
+    }
     &_cantent {
         background-image: url("../../public/home_bg.png"),
             linear-gradient(

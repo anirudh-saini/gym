@@ -9,9 +9,9 @@ export default function Home() {
     return (
         <main>
             <div className={styles.nav}>
-                {/* <div className={styles.component}> */}
-                <Nav />
-                {/* </div> */}
+                <div className={styles.component}>
+                    <Nav />
+                </div>
                 <div className={styles.nav_cantent}>
                     <p>Sweat</p>
                     <p>Sculpt</p>
